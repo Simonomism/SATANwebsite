@@ -1,84 +1,65 @@
-# Kirby
+PLEASE, READ ME
+_______________
 
-Kirby is a file-based CMS.
-Easy to setup. Easy to use. Flexible as hell.
+Coucou Lucas, voici les différents points à traiter, si tu l'acceptes!
 
-## Trial
 
-You can try Kirby on your local machine or on a test
-server as long as you need to make sure it is the right
-tool for your next project.
+1- Menu
 
-## Buy a license
+	Tu trouveras dans ../site/snippets/menu.php la structure du menu
+	J'ai grossièrement ajouté un # dans le code suivant, avant le formule php. 
 
-You can purchase your Kirby license at
-<https://getkirby.com/buy>
+				      <a href="#<?= $item ?>" alt="<?= $item ?>" title="<?= $item ?>"><?= $item->title()->html() ?></a>
 
-A Kirby license is valid for a single domain. You can find
-Kirby's license agreement here: <https://getkirby.com/license>
+	Cela fonctionne sur index.php mais quand nous nous trouvons sur une fiche artiste, le menu ne trouve pas l'ancre (c'est très logique)
+	Tu trouveras dans home.php la structure de la page d'index, dans laquelle sont appelés les différents snippets. 
+	+
+	Peut-on rediriger par exemple index.php/benevolat vers index.php? Afin de ne pas laisser l'accès à ces "pages fantômes"
 
-## The Starterkit
 
-Kirby's Starterkit comes with a small demo website and a fully
-configured panel. Feel free to modify it and play with it as
-much as you like.
 
-There's also the [Langkit](https://github.com/getkirby/langkit.git)
-in case you need a multi-language installation.
+2- Liste artiste
 
-## The Panel
+	Tu trouveras dans ..content/2-programme/ une somme de dossier correspondant à chaque artiste et qui sont appelé dans ../site/snippets/programme.php lui même appelé dans home.php
 
-You can find the login for Kirby's admin interface at
-http://yourdomain.com/panel. You will be guided through the signup
-process for your first user, when you visit the panel
-for the first time.
+	A la marge du titre "Programme" tu trouveras les mentions "par jours", "par artistes" et "par scène". L'enjeu est de pouvoir choisir l'organisation des artistes en fonction de ces critères ("par artistes" = par ordre alphabétique). Dans le .txt de chaque dossier "artiste" sont précisés la date de passage et la scène concernée (en tous cas nous pouvons le préciser via le backoffice, mais je n'ai pas encore les données et nous les auront surement tard mais faisons "comme si")
 
-## Installation
 
-Kirby does not require a database, which makes it very easy to
-install. Just copy Kirby's files to your server and visit the
-URL for your website in the browser.
+3- Partenaires
 
-**Please check if the invisible .htaccess file has been
-copied to your server correctly**
+	C'est très bête, mais je ne parviens pas à afficher les images contenues dans ../content/8-partenaires
+	pourtant via le backoffice les images sont chargées grâce à la fonctionnalité "gallery" de kirby. 
+	Voici la doc correspondante: https://getkirby.com/docs/cookbook/handling-images-in-kirby
 
-### Requirements
 
-Kirby runs on PHP 5.4+, Apache or Nginx.
+4- Contact
 
-### Download
+	De la même façon, je ne parviens pas à afficher le formulaire de contact pourtant visible sur index.php/contact
+	De plus je ne pense pas qu'il fonctionne
 
-You can download the latest version of the Starterkit
-from https://download.getkirby.com
 
-### With Git
+5- Fiche artiste
 
-If you are familiar with Git, you can clone Kirby's
-Starterkit repository from Github.
+	a) Pour chaque artiste, j'ai ouvert la possibilité d'ajouter un lien vers bandcamp, soundcloud etc... Seulement le logo correspondant s'affiche systèmatiquement, et si le lien n'a pas était renseigné, il pointe vers index.php. Comment conditionner l'affiche des logos au fait que le lien ait été renseigné? 
 
-    git clone https://github.com/getkirby/starterkit.git
+	b) J'ai voulu ajouter une colonne de texte flottant à droite de l'image artiste mais je pense que j'ai fait ça n'importe comment, si tu as une solution plus saine je suis preneur. (pas primordial car cela fonctionne pourtant)
 
-## Documentation
+	c) Tu peux aussi voir que la page de déroule sur autant de hauteur que la div "pics" (../site/snippets/pics.php) qui contient les images en bordure du site à droite. Comment limiter la hauteur de la page à la quantité de contenu textuel? J'ai totalement conscience qu'il est un peu barbare d'avoir placé les images de cette façon dans le code mais je n'ai pas eu de meilleure idée.
 
-<https://getkirby.com/docs>
+	d) Ce qui serait magique c'est les fiches artistes s'affichent en mode "ajax" avec éventuellement une animation "balayage depuis la gauche" mais c'est quand même assez accessoire, c'est purement esthétique. 
 
-## Issues and feedback
+6- Divers
 
-If you have a Github account, please report issues
-directly on Github:
+	Les 5 premiers points sont de loin les plus importants, ils touchent aux fonctionnalités même du site.
+	Néanmoins si tu as le temps de jeter un oeil aux points suivant:
 
-- <https://github.com/getkirby/kirby/issues>
-- <https://github.com/getkirby/panel/issues>
-- <https://github.com/getkirby/starterkit/issues>
+		
+		a) Le responsive est largement perfectible
 
-Otherwise you can use Kirby's forum: https://forum.getkirby.com
-or send us an email: <support@getkirby.com>
+		Je n'arrive pas à imposer une marge à gauche sur les téléphones, les titres deviennent rikiki, le header n'est pas tout a fait centré, d'ailleurs la taille du lettrage "visions" ne diminue pas au redimmensionnement de la fenêtre (gênant pour le format tablette qui globalement tient la route à ce détail prêt), je ne parviens pas à centrer correctement la div "réseaux sociaux"
 
-## Support
+		b) J'ai du mal à positionner correctement le footer
 
-<https://getkirby.com/support>
+		c) J'aimerais mettre une sorte de "easter eggs" en lien sur les images en bordure à droite, mais le lien n'est pas actif. Je me demande si ce n'est pas une histoire de plan (z-index ou je ne sais quoi) mais je ne trouve pas la solution
 
-## Copyright
-
-© 2009-2016 Bastian Allgeier (Bastian Allgeier GmbH)
-<http://getkirby.com>
+		d) Et attention, l'effet JACKY, j'aimerais que le lettrage "VISIONS" réagisse en mode "stroboscope" au survol, j'ai tenté des choses à base keyframe, animation, fill: #fffff; sur le path svg etc mais sans succès
