@@ -1,0 +1,16 @@
+Title: Partenaires
+
+pages: true
+
+fields:
+  gallery:
+    label: Gallery
+    type: structure
+    fields:
+      gallery_image:
+        label: Image
+        type: image
+        
+  text:
+    label: Text
+    type: textarea

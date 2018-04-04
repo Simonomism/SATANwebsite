@@ -1,0 +1,30 @@
+Title: Partenaires
+
+----
+
+Text: 
+
+----
+
+Intro: 
+
+----
+
+Gallery: 
+
+- 
+  gallery_image: HP.png
+- 
+  gallery_image: Hz.png
+- 
+  gallery_image: Nexnoise.png
+- 
+  gallery_image: drone.png
+- 
+  gallery_image: gonzai.png
+- 
+  gallery_image: mutine.png
+- 
+  gallery_image: noisey.png
+- 
+  gallery_image: trax.png

@@ -1,0 +1,20 @@
+title: Contact
+pages: false
+fields:
+  title:
+    label: Page
+    type:  text
+    width: 1/4
+  subtitle:
+    label: Title
+    type:  text
+    width: 3/4
+    help: If you want a different title from the page name.
+  mailto:
+    label: Form To
+    type:  text
+    width: 1/2
+  sender:
+    label: Form Sender
+    type:  text
+    width: 1/2

@@ -1,0 +1,40 @@
+Title: A ten year winter
+
+----
+
+Coverimage: atenyearwinter.gif
+
+----
+
+Date: 2018-08-04
+
+----
+
+Text: 
+
+We have a visible folder (those with the prepended numbers) for each content section on our site. Marking them as visible will help to fetch them in the next steps and prepending the numbers also gives us the option to sort the content sections. So if you feel like the testimonials section is more important than your projects later, it’s just a matter of changing those numbers to resort the sections.
+home and error
+
+There’s an additional invisible home folder with a home.txt. This is needed to tell Kirby that the homepage has a home.php template, which will be used to display all the sections above. We’ll get to that later.
+
+The error folder is used to display a 404 error page, when someone tries to access a non-available page on your site.
+
+----
+
+Jour: Vendredi 05 août
+
+----
+
+Scene: Scène mer
+
+----
+
+Soundcloud: 
+
+----
+
+Bandcamp: https://atenyearwinter.bandcamp.com/
+
+----
+
+Website: 

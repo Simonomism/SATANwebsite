@@ -1,0 +1,42 @@
+title: Article
+
+pages: true
+
+fields:
+  title:
+    label: Title
+    type:  title
+    
+  coverimage:
+    label: Cover Image
+    type: image
+    width: 1/3
+    
+  jour:
+    label: jour
+    type: title
+    width: 1/3
+
+  scene:
+    label: scene
+    type: title
+    width: 1/3
+
+  website:
+    label: website
+    type: title
+    width: 1/3
+
+  bandcamp:
+    label: bandcamp
+    type: title
+    width: 1/3
+
+  soundcloud:
+    label: soundcloud
+    type: title
+    width: 1/3
+
+  text:
+    label: text
+    type: textarea

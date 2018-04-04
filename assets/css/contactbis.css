@@ -1,0 +1,107 @@
+/* Alerts messages
+-------------------------------------------------- */
+.alert {
+  padding: .7rem 1rem;
+  font-size: 16px;
+  color: #fff;
+  background: #111;
+  position: relative;
+  border-radius: 3px;
+}
+.alert p {
+  margin-bottom: .5rem;
+}
+.alert p:last-of-type {
+  margin-bottom: 0;
+}
+.alert a {
+  color: inherit;
+  font-weight: bold;
+}
+.alert.error {
+  background: #f40000;
+}
+.alert.success {
+  background: #5ccc79;
+}
+
+
+/* Forms
+-------------------------------------------------- */
+form {
+  font-size: 1rem;
+  padding-top: 1.5em;
+}
+form .field {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+form .honeypot {
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+form .alert {
+  padding: 0 .5em;
+  margin: 0 0 .5em;
+  font-size: .86em;
+  display: inline-block;
+}
+form label {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+form .field.error label {
+  color: #f40000;
+}
+form input:not([type="button"]):not([type="submit"]),
+form textarea {
+  width: 100%;
+  border: 2px solid #ddd;
+  padding: .5rem;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.5em;
+}
+form input:not([type="button"]):not([type="submit"]):focus,
+form textarea:focus {
+  border-color: #000;
+}
+form textarea {
+  height: 10em;
+  resize: vertical;
+}
+form button,
+form input[type="button"],
+form input[type="submit"] {
+  padding: .5rem 1.5rem;
+  line-height: 1.5em;
+  font-family: inherit;
+  font-size: inherit;
+  border: 0;
+  font-weight: 600;
+  /*width: 100%;*/
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  transition: color .15s ease-out, background-color .15s ease-out;
+  border-radius: 2px;
+}
+form button::-moz-focus-inner,
+form input[type="button"]::-moz-focus-inner,
+form input[type="submit"]::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+form button:hover,
+form input[type="button"]:hover,
+form input[type="submit"]:hover {
+  background: #000;
+  color: #fff
+}

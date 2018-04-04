@@ -1,0 +1,18 @@
+title: Team Member
+
+pages: false
+
+icon: user
+
+preview: parent
+
+fields:
+  title:
+    label: Name
+    type: title
+
+  texte:
+    label: About
+    type: textarea
+
+
