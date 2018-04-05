@@ -47,6 +47,8 @@ Coucou Lucas, voici les différents points à traiter, si tu l'acceptes!
 	c) Tu peux aussi voir que la page de déroule sur autant de hauteur que la div "pics" (../site/snippets/pics.php) qui contient les images en bordure du site à droite. Comment limiter la hauteur de la page à la quantité de contenu textuel? J'ai totalement conscience qu'il est un peu barbare d'avoir placé les images de cette façon dans le code mais je n'ai pas eu de meilleure idée.
 
 	d) Ce qui serait magique c'est les fiches artistes s'affichent en mode "ajax" avec éventuellement une animation "balayage depuis la gauche" mais c'est quand même assez accessoire, c'est purement esthétique. 
+	que penses-tu de ça? https://css-tricks.com/add-page-transitions-css-smoothstate-js/
+	je vais essayer de mettre ça en place mais ça me semble risqué
 
 6- Divers
 

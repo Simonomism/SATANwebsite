@@ -705,20 +705,40 @@ body {
 
    #titre {z-index: 1; color: #ffffff; mix-blend-mode: difference; position: fixed; right: 30px; bottom: 0px; text-align: center; line-height: 0em; }
    #titre svg { width:50rem; margin: 0; padding:0; }
-   #titre svg:hover path{  animation: banging .4s ease-in-out; margin-left: 5px;  }
+   #titre svg:hover path{  animation: banging .8s ease-in-out; margin-left: 5px;  }
 
-   @keyframes banging {
-  0% {
+  @keyframes banging {
+  10% {
     fill:green; 
+
   }
-  25% {
+  20% {
     fill:grey; 
   }
-  50% {
+  30% {
     fill:black;
   }
+  40% {
+    fill:grey;  
+  }  
+  50% {
+    fill:blue;  
+  }
+  60% {
+    fill:black;  
+  }
+  70% {
+    fill:grey;  
+  }
+  80% {
+    fill:green;  
+  }
+  90% {
+    fill:black;  
+  }
   100% {
-  fill:grey;  }
+    fill:grey;  
+  }
   }
 
 /* -----  Contenu  --------------------------------------------------------- */
