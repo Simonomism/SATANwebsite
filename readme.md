@@ -61,5 +61,3 @@ Coucou Lucas, voici les différents points à traiter, si tu l'acceptes!
 		b) J'ai du mal à positionner correctement le footer
 
 		c) J'aimerais mettre une sorte de "easter eggs" en lien sur les images en bordure à droite, mais le lien n'est pas actif. Je me demande si ce n'est pas une histoire de plan (z-index ou je ne sais quoi) mais je ne trouve pas la solution
-
-		d) Et attention, l'effet JACKY, j'aimerais que le lettrage "VISIONS" réagisse en mode "stroboscope" au survol, j'ai tenté des choses à base keyframe, animation, fill: #fffff; sur le path svg etc mais sans succès

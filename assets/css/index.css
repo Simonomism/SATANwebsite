@@ -703,12 +703,23 @@ body {
     width: 50%;
   }
 
-
-/* -----  Fiche artiste  --------------------------------------------------------- */
-
    #titre {z-index: 1; color: #ffffff; mix-blend-mode: difference; position: fixed; right: 30px; bottom: 0px; text-align: center; line-height: 0em; }
    #titre svg { width:50rem; margin: 0; padding:0; }
+   #titre svg:hover path{  animation: banging .4s ease-in-out; margin-left: 5px;  }
 
+   @keyframes banging {
+  0% {
+    fill:green; 
+  }
+  25% {
+    fill:grey; 
+  }
+  50% {
+    fill:black;
+  }
+  100% {
+  fill:grey;  }
+  }
 
 /* -----  Contenu  --------------------------------------------------------- */
 
