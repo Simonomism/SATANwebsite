@@ -17,7 +17,7 @@ $(document).ready(function(){
     });
 });
 </script>
-  <?= css('assets/css/index.css') ?>
+  <link rel="stylesheet" href="/assets/css/index.css" type="text/css" charset="utf-8" />
   <link rel="stylesheet" href="shlop.css" type="text/css" charset="utf-8" />
   <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet"> 
   
