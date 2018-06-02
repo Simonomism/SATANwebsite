@@ -706,7 +706,7 @@ body {
 
 /* -----  Contenu  --------------------------------------------------------- */
 
-   section { margin-bottom: 50px; margin-left: 30px; margin-right: 30px; width: 65%; }
+   section { margin-bottom: 50px; margin-left: 30px; margin-right: 30px; width: 55%; }
    section p { text-indent: 350px; line-height: 1.5em; font-size: 0.90em; margin-bottom: 20px;}
    section li { line-height: 0.1em; }
    section ul a { text-decoration: none; }
@@ -735,7 +735,7 @@ body {
    span#credits {width: 100%; color: black; font-size: .75rem; font-weight:100; margin-bottom: 5%; }
   
 
-  #pics { z-index: 2; position: absolute;  margin:0;  top: 500px; right: -650px;}
+  #pics { z-index: 2; position: absolute;  margin:0;  top: 500px; right: -450px;}
    #pics img{ width: 200px; margin-bottom: 250px; }
 
 
