@@ -2,24 +2,33 @@
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
 <head>
 
+  <title><?= $site->title()->html() ?> | <?= $site->description()->html() ?></title>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Festival Visions#6.66 - 3,4,5 août 2018 - Fort de Bertheaume dans le Finistère en Bretagne - Retrouvez toute la programmation et les informations pratiques">
+  <meta name="keywords" content="Visions, Festival, Plougonvelin, 2018, Bertheaume, bretagne, finistère, août, musique, punk, techno, metal, rock, industriel, pop, noise, electro ">
+  <meta name="author" content="Les disques anonymes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title><?= $site->title()->html() ?> | <?= $site->description()->html() ?></title>
-  <meta name="description" content="<?= $site->description()->html() ?>">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-$(document).ready(function(){
-    $("button").click(function(){
-        $("p").replaceWith(function(n){
-            return "<h3>This element has index " + n + ".</h3>";
-        });
-    });
-});
-</script>
-  <?= css('assets/css/index.css') ?>
-  <link rel="stylesheet" href="shlop.css" type="text/css" charset="utf-8" />
-  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet"> 
+  <meta property="og:title" content="Festival Visions#6.66 - 3,4,5 août 2018 - Fort de Bertheaume" />
+  <meta property="og:type" content="Programmation, infos pratiques & billetterie" />
+  <meta property="og:url" content="http://www.festivalvisions.com" />
+  <meta property="og:image" content="../assets/images/thumbfb.gif" />
+
+  <link rel="stylesheet" href="/assets/css/index.css" type="text/css" charset="utf-8" /> 
+
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
   
 
 </head>
@@ -30,7 +39,7 @@ $(document).ready(function(){
       <div class="branding column">    
 
         <div id="titre">
-        <a href="<?= url() ?>" alt="<?= $site->title() ?>" title="<?= $site->title() ?>" rel="home" >
+        <a href="<?= url() ?>" alt="<?= $site->title() ?>" title="<?= $site->title() ?>" rel="home" ><h1>Festival Visions#6.66 - 3,4,5 août 2018 - Fort de Bertheaume dans le Finistère en Bretagne</h1> 
         <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    width="822px" height="315.118px" viewBox="0 0 822 315.118" enable-background="new 0 0 822 315.118" xml:space="preserve" id="banging">
   <g>

@@ -4,6 +4,8 @@ files:
   sortable: true
 
 pages: false
+    sort:time
+
 
 fields:
   title:

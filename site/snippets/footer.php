@@ -8,13 +8,19 @@
       ?></p>
 
       <p class="footer-madewithkirby">
-        <img src="../assets/images/fb.png" />
-        Le festival Visions est organisé par l'association <a href="http://www.lesdisquesanonymes.bandcamp.com">Les disques anonymes</a>. Cet évènement fonctionne sans subventions et l'ensemble de l'organisation travaille à titre bénévole.<br><br>
-        Ce site internet a été réalisé par <a href="www.simon-lepuissant.com">Simon Lepuissant</a> à partir du <a href="www.getkirby.com">CMS Kirby</a>. Les titres sont composés en "Combat" dessiné par <a href="http://martindesinde.tumblr.com/">Martin Desinde</a>, édité par <a href="https://velvetyne.fr/">Velvetyne Type Foundry</a> et le corps du texte en "Karla" dessiné par Jonny Pinhorn. L'affiche du festival est signée Jo Llcool.
+        Le festival Visions est organisé par l'association <a href="http://www.lesdisquesanonymes.bandcamp.com">Les disques anonymes</a>. Cet évènement fonctionne sans subventions et l'ensemble de l'organisation travaille à titre bénévole. L'affiche est signée <a href="http://llcooljo.free.fr/">Jo Llcool</a>, le site internet <a href="www.simon-lepuissant.com">Simon Lepuissant</a>.
       </p>
     
     </div>
   </footer>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>$(document).ready(function(){
+    $("button").click(function(){
+        $("p").replaceWith(function(n){
+            return "<h3>This element has index " + n + ".</h3>";
+        });
+    });});</script>
 </body>
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"> 
 </html>

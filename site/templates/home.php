@@ -9,6 +9,8 @@ foreach($pages->visible() as $section) {
 
 ?>
 
-<?php snippet('social') ?>
 <?php snippet('footer'); ?>
+
+
+
 <?php snippet('pics'); ?>

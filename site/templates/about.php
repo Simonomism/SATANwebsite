@@ -9,7 +9,7 @@
         <div class="intro text">
           <?= $page->intro()->kirbytext() ?>
         </div>
-        <hr />
+
       </header>
       
       <div class="text">

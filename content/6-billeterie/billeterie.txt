@@ -1,8 +1,0 @@
-Title: Billeterie
-----
-
-Text: Une petite explication sur la billetterie: On vous propose cette année de nous soutenir volontairement (Tarifs « soutien »), on est toujours sur la corde raide et un petit coup de pouce est vraiment plus que bienvenu. Par ailleurs, chaque catégorie de places est limitée en nombre et on ne pourra pas ajouter de places supplémentaires étant donné que notre jauge est toujours réduite. On vous conseille donc de réserver vos places dès que vous le pouvez et de prévenir vos potes, pour éviter les larmes et les appels désespérés et déchirants de vos srabs sur facebook qui encore une fois ont chié dans la colle.
-
-----
-
-Yurplan: Achetez <br> vos billets

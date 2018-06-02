@@ -19,7 +19,8 @@ RewriteEngine on
 # In some enviroments it's necessary to
 # set the RewriteBase to:
 #
-# RewriteBase /
+
+RewriteBase /
 
 # block text files in the content folder from being accessed directly
 RewriteRule ^content/(.*)\.(txt|md|mdown)$ index.php [L]
@@ -29,6 +30,7 @@ RewriteRule ^content/(.*)\.(txt|md|mdown)$ index.php [L]
 #RewriteRule ^assets/plugins/([a-zA-Z0-9\.\-_%=]+)/(.*)$ site/plugins/$1/assets/$2 [L,N]
 #RewriteCond $1 !^plugins/[a-zA-Z0-9\.\-_%=]+/assets/.*
 RewriteRule ^site/(.*) index.php [L]
+RewriteRule ^billeterie.php/(.*) index.php/#billeterie [L]
 
 # block direct access to kirby and the panel sources
 RewriteRule ^(kirby|panel\/app|panel\/tests)/(.*) index.php [L]
@@ -43,7 +45,10 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*) index.php [L]
 
+RewriteRule "/billeterie.html" "http://festivalvisions.com/#billeterie"
+
 </IfModule>
+
 
 # Additional recommended values
 # Remove comments for those you want to use.
@@ -51,3 +56,5 @@ RewriteRule ^(.*) index.php [L]
 # AddDefaultCharset UTF-8
 #
 # php_flag short_open_tag on
+
+

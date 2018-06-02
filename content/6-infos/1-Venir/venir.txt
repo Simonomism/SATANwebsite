@@ -1,0 +1,13 @@
+Title: Venir
+
+----
+
+Text: 
+
+Le festival Visions#6.66 se déroulera au Fort de Bertheaume, dans la commune de Plougonvelin (département Finistère, 29 BZH). La ville la plus proche est Brest, située à 20km du site (environ 30 minutes). 
+
+Vous pouvez vous rendre à Brest en bus à partir de toutes les grandes villes de France (et d’ailleurs) avec les compagnies suivantes : Ouibus, Flixbus et Isilines. Les bus vous déposeront à la gare de Brest. En gare de Brest, vous pourrez prendre le bus n°11 qui vous amènera directement sur le site du festival (environ 1h de trajet, descendre à l’arrêt Bourg Rue Saint Yves). Les horaires du bus sont consultables <a href="http://www.viaoo29.fr">sur les internets</a> ou par téléphone au 02 98 90 88 89. 
+<p>
+Toute personne arrivant seule en voiture sera humiliée publiquement, aussi nous vous conseillons vivement de vous organiser sur notre <a href="https://www.facebook.com/groups/332201173580378/about/" alt="groupe de covoiturage" title="groupe de covoiturage">groupe de covoiturage</a>.</p>
+
+<iframe width="99%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-4.828834533691407%2C48.26628376883916%2C-4.56584930419922%2C48.40755398736568&amp;layer=mapnik&amp;marker=48.33685369807936%2C-4.6973419189453125" style=""></iframe>
